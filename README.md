@@ -1,66 +1,71 @@
 # GSAP Cocktails
 
-A premium animated cocktail website built with React, Vite, Tailwind CSS, and GSAP.
+An animation-focused frontend project built with React, GSAP, and Tailwind CSS.
 
-This project focuses on creating a smooth, cinematic landing page experience with scroll-based animations, animated text reveals, parallax effects, responsive layouts, and an interactive cocktail menu. The website is designed with a dark luxury visual style, custom typography, and motion-heavy sections that create a polished frontend presentation.
+This project demonstrates modern web animation techniques including scroll-triggered interactions, SplitText animations, parallax effects, pinned sections, video synchronization, and responsive UI development. The goal was to strengthen advanced frontend animation skills and create a polished, immersive user experience.
 
-[Live Demo](https://gsap-cocktails-steel-two.vercel.app/) | [GitHub Repository](https://github.com/lukachokheli/gsap_cocktails)
+## Live Demo
 
----
+https://gsap-cocktails-l8opibzdc-lukajs.vercel.app
 
-### Tech Stack
+## Tech Stack
 
-* **Core:** React, Vite, JavaScript
-* **Styling:** Tailwind CSS, Custom CSS
-* **Animation:** GSAP, @gsap/react, ScrollTrigger, SplitText
-* **Deployment:** Vercel
+* React
+* JavaScript
+* Vite
+* Tailwind CSS
+* GSAP
+* ScrollTrigger
+* SplitText
+* @gsap/react
+* React Responsive
+* Vercel
 
----
+## Features
 
-### Key Features
+* SplitText title and content animations
+* Scroll-triggered animations with ScrollTrigger
+* Parallax visual effects
+* Scroll-synced video playback
+* Interactive cocktail showcase
+* Animated image reveal effects
+* Pinned storytelling sections
+* Responsive design across multiple screen sizes
+* Component-based React architecture
 
-* **Cinematic Hero Section:** Animated SplitText title reveal and scroll-controlled video animation.
-* **Advanced Motion:** Scroll-triggered animations using GSAP ScrollTrigger and parallax leaf elements.
-* **Interactive Components:** Cocktail slider with dynamic content changes synced to React state.
-* **Visual Effects:** Mask reveal animations in "The Art" section and image grid transitions in the About section.
-* **Premium UI/UX:** Responsive layout optimized for all screen sizes with a dark, luxury cocktail-bar aesthetic.
+## Skills Demonstrated
 
----
+### Frontend Development
 
-### Project Sections
+* Building reusable React components
+* Managing responsive layouts
+* Structuring scalable frontend code
 
-**Hero**  
-Introduces the website with a large animated “MOJITO” title, animated subtitle text, decorative leaf motion, and scroll-based video animation.
+### Animation Engineering
 
-**Cocktails**  
-A menu-style section displaying popular cocktails and mocktails with animated decorative elements.
+* Creating GSAP timelines
+* Implementing ScrollTrigger interactions
+* Coordinating multi-section animation sequences
+* Building smooth user experiences without sacrificing performance
 
-**About**  
-A visual brand section with animated text, customer rating content, and image grid reveals.
+### Modern Tooling
 
-**The Art**  
-A scroll-pinned animation section that uses masking and reveal effects to highlight the craft behind the cocktails.
+* Vite development workflow
+* Tailwind CSS styling
+* Production deployment with Vercel
 
-**Menu**  
-An interactive cocktail showcase where users can switch between drinks and view each cocktail’s title, image, and description.
+## Challenges Solved
 
-**Contact**  
-A final contact section with location, email, LinkedIn, opening hours, and social links.
+* Integrating GSAP animations with React lifecycles
+* Maintaining smooth animation performance
+* Creating responsive animation behavior
+* Synchronizing multiple animation timelines
+* Combining storytelling and UI interactions into a cohesive experience
 
----
+## Author
 
-### Technical Takeaways
+Luka Chokheli
 
-* Integrating GSAP context and timelines smoothly inside React lifecycles via `@gsap/react`.
-* Creating advanced scroll-pinned and scroll-driven animations with `ScrollTrigger`.
-* Manipulating typography dynamically using `SplitText`.
-* Managing responsive animation breakpoints for seamless mobile and desktop behavior.
-* Blending Tailwind CSS utility classes with complex custom animation logic.
+GitHub: https://github.com/lukachokheli
 
----
-
-### Author
-
-**Luka Chokheli**
-* [GitHub](https://github.com/lukachokheli)
-* [LinkedIn](https://linkedin.com/in/luka-chokheli)
+LinkedIn: https://www.linkedin.com/in/luka-chokheli
